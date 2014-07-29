@@ -13,6 +13,9 @@
 		77113BC1197E678A000527EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77113BBF197E678A000527EA /* Main.storyboard */; };
 		77113BC3197E678A000527EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77113BC2197E678A000527EA /* Images.xcassets */; };
 		77113BCF197E678A000527EA /* BirdWatching2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77113BCE197E678A000527EA /* BirdWatching2Tests.swift */; };
+		77113BDD197E6957000527EA /* BirdSighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77113BDC197E6957000527EA /* BirdSighting.swift */; };
+		77150F7D197FB662001BDBD2 /* BirdSightingDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77150F7C197FB662001BDBD2 /* BirdSightingDataController.swift */; };
+		77441EF219810E64007E567E /* AddSightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77441EF119810E64007E567E /* AddSightingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		77113BC8197E678A000527EA /* BirdWatching2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdWatching2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77113BCD197E678A000527EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77113BCE197E678A000527EA /* BirdWatching2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdWatching2Tests.swift; sourceTree = "<group>"; };
+		77113BDC197E6957000527EA /* BirdSighting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdSighting.swift; sourceTree = "<group>"; };
+		77150F7C197FB662001BDBD2 /* BirdSightingDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdSightingDataController.swift; sourceTree = "<group>"; };
+		77441EF119810E64007E567E /* AddSightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSightingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				77113BBF197E678A000527EA /* Main.storyboard */,
 				77113BC2197E678A000527EA /* Images.xcassets */,
 				77113BB7197E678A000527EA /* Supporting Files */,
+				77113BDC197E6957000527EA /* BirdSighting.swift */,
+				77150F7C197FB662001BDBD2 /* BirdSightingDataController.swift */,
+				77441EF119810E64007E567E /* AddSightingViewController.swift */,
 			);
 			path = BirdWatching2;
 			sourceTree = "<group>";
@@ -213,7 +222,10 @@
 			files = (
 				77113BBE197E678A000527EA /* DetailViewController.swift in Sources */,
 				77113BBC197E678A000527EA /* MasterViewController.swift in Sources */,
+				77150F7D197FB662001BDBD2 /* BirdSightingDataController.swift in Sources */,
 				77113BBA197E678A000527EA /* AppDelegate.swift in Sources */,
+				77113BDD197E6957000527EA /* BirdSighting.swift in Sources */,
+				77441EF219810E64007E567E /* AddSightingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +411,7 @@
 				77113BD4197E678A000527EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77113BD5197E678A000527EA /* Build configuration list for PBXNativeTarget "BirdWatching2Tests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +420,7 @@
 				77113BD7197E678A000527EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
